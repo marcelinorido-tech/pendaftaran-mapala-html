@@ -5,8 +5,8 @@ Implementasi formulir pendaftaran mahasiswa untuk organisasi **MAPALA** mengguna
 
 ## Anggota Kelompok
 - **Marselino Rido** (2024018004)
-- [Nama Teman 1]
-- [Nama Teman 2]
+- **Putri Robet** (2024018007)
+- **Rora Aulia Cantika** (2024018008)
 
 ## Fitur Form
 - Pengelompokan field menggunakan `<fieldset>`
