@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Pendaftaran Mapala Kampus</title>
+</head>
+<body>
+
+    <h1>Formulir Pendaftaran Calon Anggota MAPALA</h1>
+    <p>Mohon isi formulir di bawah ini dengan data yang sebenar-benarnya untuk keperluan administrasi dan keselamatan berkegiatan.</p>
+
+    <form action="#" method="post">
+        
+        <fieldset>
+            <legend>Data Identitas Mahasiswa</legend>
+            <p>
+                <label for="nama">Nama Lengkap:</label><br>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama sesuai KTM" required>
+            </p>
+            <p>
+                <label for="nim">NIM:</label><br>
+                <input type="text" id="nim" name="nim" required>
+            </p>
+            <p>
+                <label for="fakultas">Fakultas:</label><br>
+                <select id="fakultas" name="fakultas" required>
+                    <option value="">-- Pilih Fakultas --</option>
+                    <option value="FKIP">Fakultas Keguruan dan Ilmu Pendidikan</option>
+                    <option value="Ekonomi">Fakultas Ekonomi</option>
+                    <option value="Teknik">Fakultas Teknik</option>
+                    <option value="Pertanian">Fakultas Pertanian</option>
+                    <option value="Psikologi">Fakultas Psikologi</option>
+                </select>
+            </p>
+            <p>
+                <label for="prodi">Program Studi:</label><br>
+                <input type="text" id="prodi" name="prodi" placeholder="Contoh: Teknik Informatika" required>
+            </p>
+            <p>
+                <label for="gol_darah">Golongan Darah:</label><br>
+                <select id="gol_darah" name="gol_darah" required>
+                    <option value="">-- Pilih --</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="AB">AB</option>
+                    <option value="O">O</option>
+                </select>
+            </p>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Informasi Kontak & Medis</legend>
+            <p>
+                <label for="email">Email Mahasiswa:</label><br>
+                <input type="email" id="email" name="email" placeholder="contoh@mail.com" required>
+            </p>
+            <p>
+                <label for="hp">Nomor HP/WhatsApp:</label><br>
+                <input type="tel" id="hp" name="hp" placeholder="0812..." required>
+            </p>
+            <p>
+                <label for="darurat">Nomor Darurat (Orang Tua/Wali):</label><br>
+                <input type="tel" id="darurat" name="darurat" required>
+            </p>
+            <p>
+                <label for="penyakit">Riwayat Penyakit/Alergi:</label><br>
+                <textarea id="penyakit" name="penyakit" rows="3" cols="50" placeholder="Tulis 'Tidak Ada' jika tidak memiliki riwayat penyakit"></textarea>
+            </p>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Minat & Kesiapan Alat</legend>
+            <p>
+                <label>Divisi Peminatan:</label><br>
+                <input type="radio" id="gh" name="divisi" value="Gunung Hutan">
+                <label for="gh">Gunung Hutan</label><br>
+                <input type="radio" id="rc" name="divisi" value="Rock Climbing">
+                <label for="rc">Rock Climbing (Panjat Tebing)</label><br>
+                <input type="radio" id="or" name="divisi" value="Olah Raga Arus Deras">
+                <label for="or">Olah Raga Arus Deras (Arung Jeram)</label>
+            </p>
+            <p>
+                <label>Perlengkapan Pribadi yang Dimiliki:</label><br>
+                <input type="checkbox" id="alat1" name="alat" value="Carrier">
+                <label for="alat1">Tas Carrier</label><br>
+                <input type="checkbox" id="alat2" name="alat" value="Sepatu Gunung">
+                <label for="alat2">Sepatu Gunung</label><br>
+                <input type="checkbox" id="alat3" name="alat" value="Sleeping Bag">
+                <label for="alat3">Sleeping Bag</label>
+            </p>
+            <p>
+                <label for="berkas">Unggah Surat Keterangan Sehat (PDF/JPG):</label><br>
+                <input type="file" id="berkas" name="berkas">
+            </p>
+        </fieldset>
+
+        <br>
+
+        <button type="submit">Kirim Pendaftaran</button>
+        <button type="reset">Reset Form</button>
+
+    </form>
+
+    <hr>
+    <p><em>Catatan: Pastikan semua data sudah benar sebelum menekan tombol kirim.</em></p>
+
+</body>
+</html>
